@@ -66,10 +66,10 @@ export default function Hero() {
               <div className="hidden lg:flex justify-center items-center relative">
                 <div className="w-96 h-96 bg-gradient-to-tr from-purple-500/20 to-blue-500/20 rounded-full blur-3xl absolute" />
                 <Image
-                  src="/logo.png"
+                  src="/page.png"
                   alt="Hirecentive Illustration"
-                  width={500}
-                  height={500}
+                  width={400}
+                  height={400}
                   className="relative z-10 rounded-2xl shadow-2xl"
                 />
               </div>
