@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { CursorFX } from "../components/CursorFX";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} font-sans antialiased bg-gradient-to-br from-purple-900 via-blue-900 to-black min-h-screen`}>
+        <CursorFX />
         {children}
       </body>
     </html>
