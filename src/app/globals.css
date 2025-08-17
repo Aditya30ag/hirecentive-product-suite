@@ -160,20 +160,6 @@ body {
   will-change: transform;
 }
 
-/* Enhanced cursor styles */
-body {
-  cursor: none;
-}
-
-/* Show default cursor on interactive elements */
-button, a, input, textarea, select, [role="button"] {
-  cursor: none;
-}
-
-/* Custom cursor hover effects */
-button:hover, a:hover, input:hover, textarea:hover, select:hover, [role="button"]:hover {
-  cursor: none;
-}
 
 /* Smooth transitions for all elements */
 * {
@@ -197,4 +183,23 @@ button:focus, a:focus, input:focus, textarea:focus, select:focus {
   .backdrop-blur-md {
     backdrop-filter: blur(12px);
   }
+}
+
+/* Modern Scrollbar Design - Global */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: black;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+	border-radius: 10px;
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	transition: all 0.3s ease;
 }

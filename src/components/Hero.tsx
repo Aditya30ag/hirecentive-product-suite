@@ -160,18 +160,7 @@ export default function Hero() {
       </div>
 
       {/* Enhanced Custom Cursor */}
-      <div
-        className="fixed pointer-events-none z-50 transition-transform duration-100 ease-out"
-        style={{
-          left: mousePosition.x - 16,
-          top: mousePosition.y - 24,
-          transform: 'translate(-50%, -50%)'
-        }}
-      >
-        <div className="w-8 h-12 border-2 border-purple-400 rounded-full flex justify-center shadow-lg">
-          <div className="w-1.5 h-4 bg-purple-400 rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
+      
     </section>
   );
 }
